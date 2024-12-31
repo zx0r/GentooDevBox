@@ -25,8 +25,7 @@ if status is-interactive
     source $XDG_CONFIG_HOME/fish/aliases/abbr.fish
     source $XDG_CONFIG_HOME/fish/themes/colorscheme.fish
     source $XDG_CONFIG_HOME/fish/user_variables.fish
-    source $HOME/.secrets/config.fish.local
-
+   
     # Source conda configuration if it exists
     if test -f "$HOME/miniconda3/etc/fish/conf.d/conda.fish"
         source "$HOME/miniconda3/etc/fish/conf.d/conda.fish"
